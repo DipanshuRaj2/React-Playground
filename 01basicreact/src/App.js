@@ -1,10 +1,6 @@
-import Chai from './Chai'
-function App() {
-  return (
-    <>
-     <Chai/> 
-    <h1>My name is Dipanshu Raj</h1>
-    </>
+function App(){
+  return(
+    <h1>chai Aur react Hello bro How are you </h1>
   );
 }
 

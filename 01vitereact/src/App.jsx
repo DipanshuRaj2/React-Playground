@@ -1,11 +1,9 @@
-import Chai from "./chai"
-  function App() {
+import Hello from "./Hello"
+
+function App() {
   return (
-    <>
-    <Chai/>
-    <h1>chai aur react</h1>
-    <p>hello bro how are you?</p>
-    </>
+     <Hello/>
+     
   )
 }
 

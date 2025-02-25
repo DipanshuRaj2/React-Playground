@@ -1,0 +1,19 @@
+--React is a library:
+library: no need for naming convention
+framework: need for naming convention.
+ if you don't write correct name your application will be crash.
+
+
+--React create own DOM i.e called virtual Dom. 
+
+React has 2 types:
+
+1.React Dom(web Application) 2.React Native(Mobile Application)
+
+The main feature of react is if you changes anything in the website it the webpage doesn't reload every time.
+                                    ------
+but same thing you buid on HTML, CSS, JS whenever you changes any thing in the website the webpage reload every time.
+ 
+npm: node package manager
+npx: node package executer
+
