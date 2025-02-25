@@ -17,3 +17,14 @@ but same thing you buid on HTML, CSS, JS whenever you changes any thing in the w
 npm: node package manager
 npx: node package executer
 
+
+------------------------------------------------------------
+React JS
+<>
+multiple tags are returned 
+</> = This is called fragment.
+
+whatever files we created in Src files and import in main jsx:
+called component.
+
+
