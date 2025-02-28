@@ -28,3 +28,16 @@ whatever files we created in Src files and import in main jsx:
 called component.
 
 
+//When you want to open the webpage in the diffrent screen
+
+run Command : npx vite --host
+
+make sure wifi connect to the same network
+i.e  phoneHotspot->laptopWifi
+I am able to see the webpage on the phone + laptop
+
+
+
+
+
+
