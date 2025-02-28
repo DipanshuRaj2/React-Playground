@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-    <h1>Chai Aur React</h1>
+    <h1>Hooks Project</h1>
     <h2>Counter value: {counter}</h2>
 
 
