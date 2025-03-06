@@ -8,9 +8,37 @@
 -It exists only in memory and does not directly affect the webpage.
 
 --How it is work?
--When someone changes in the UI, React Updates the virtual DOM first.
--It compare the new virtual DOM with the old one.
--And find the smallest changes needed only those part in the real DOM.
--It is faster as compare to DOM
+-When the UI changes, React creates a new Virtual DOM.
+-It compares the new Virtual DOM with the previous one.
+-React identifies the smallest necessary changes and updates only those parts in the real DOM.
+-This process is faster than directly updating the entire DOM, making React efficient.
+-This process is called Reconciliation.
+-Reconciliation is an algorithm
+
+
+React Fiber 
+It is an reconciliation algorithm.
+
+
+
+Concept 	
+What It Does?	                        
+Virtual DOM: Creates a copy of the real DOM to improve performance.
+How It Works?
+React updates the Virtual DOM first and later syncs changes to the real DOM.
+
+
+
+Reconcilitation:
+What It Does?	                        
+Reconciliation	Compares old and new Virtual DOMs and applies only necessary changes to the real DOM.
+How It Works?
+Uses a diffing algorithm to update only changed elements.
+
+
+what it Does?
+Fiber	A new reconciliation algorithm that optimizes UI updates.	
+How it works?
+Splits work into small units, making updates asynchronous and prioritized.
 
 
